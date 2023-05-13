@@ -169,7 +169,6 @@ namespace ConsoleHologramSpinner {
       Echo("\nRotating by " + rotation_vector.ToString());
       Echo("Update source type:" + updateSource.ToString());
       Echo("\nRecompile for changes in config to take effect");
-      Echo("Acabei de alterar");
     }
 
     #endregion // ConsoleHologramSpinner
