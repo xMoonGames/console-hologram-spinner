@@ -1,0 +1,11 @@
+.vscode/*
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# Needless SDK's shit.
+bin/
+obj/
+
+# https://github.com/reksar/SpaceEngineers
+utils/
+scripts/Template/
