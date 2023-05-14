@@ -72,7 +72,7 @@ namespace ConsoleHologramSpinner {
         case "RefreshMode":
           name = line.Remove(0, 11).Trim().Split('=')[1].Trim();
           switch (name) {
-          case "Realtime":
+          case "Fast":
             Runtime.UpdateFrequency = UpdateFrequency.Update1;
             break;
           case "Normal":
@@ -94,7 +94,6 @@ namespace ConsoleHologramSpinner {
     public void Save() {}
 
     public void Main(string argument, UpdateType updateSource) {
-      
 
       if (consoleBlock == null) {
         Echo("Could not find block named: " + consoleName);
